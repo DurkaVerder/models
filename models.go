@@ -8,9 +8,3 @@ type PingResult struct {
 	PingTime           int       `json:"ping_time"`
 	DateSuccessfulPing time.Time `json:"date_successful_ping"`
 }
-
-type PingResponse struct {
-	IPAddress          string `json:"IPAddress"`
-	PingTime           int    `json:"PingTime"`
-	DateSuccessfulPing string `json:"DateSuccessfulPing"`
-}
